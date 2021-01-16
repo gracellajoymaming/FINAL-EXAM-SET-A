@@ -1,0 +1,202 @@
+
+.content{
+    position: relative;
+    padding: 4%;
+    margin: 60px 370px;
+    top: 0%;
+    bottom: 0%;
+    padding-bottom: 3%;
+    padding-top: 25px;
+    background: white;
+}
+
+.content:after
+{
+    filter: blur(20px);
+}
+
+
+
+
+body:before
+{
+    content: '';
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    background: rgb(3, 150, 3);
+    background-size: 400%;
+    z-index: -1;
+    width: calc(100% + 8px);
+    height: calc(100% + 8px);
+    animation: animate 20s linear infinite;
+}
+body:after
+{
+    filter: blur(20px);
+}
+@keyframes animate
+{
+    0%
+    {
+        background-position: 0 0;
+    }
+    50%
+    {
+        background-position: 300% 0;
+    }
+    100%
+    {
+        background-position: 0 0;
+    }
+}
+
+.motor{
+    float: none;
+    padding: 0%;
+    margin: 0%;
+}
+.motorbike{
+    color: rgb(136, 132, 132);
+    top: 0px;
+    font-family: sans-serif;
+    font-size: 33px;
+    text-align: center;
+    margin-top: 0rem;
+
+}
+.generate1{
+    color: rgb(136, 132, 132);
+    font-size: 16px;
+    padding: 0px;
+    text-decoration: none;
+}
+.generate2{
+    color: rgb(136, 132, 132);
+    font-size: 16px;
+    padding: 80px;
+    text-decoration: none;
+}
+.allgenerate{
+    padding: 10px;   
+    margin-top: 0px; 
+}
+.buttonselector{
+    padding: 0%;
+    margin-top: 10px; 
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+.gen{
+    border-radius: 10%;
+    background-color: green;
+    color: #fff;
+    padding: 2% 5%;
+    font-weight: bolder;
+    font-size: 14px;
+    border: none;
+}
+.gen:hover{
+    background-color: grey;
+    color: black;
+}
+#color{
+    border-radius: 10%;
+    border: 1;
+    background-color: white;
+    padding: 2% 6%;
+    font-size: 16;
+    font-weight: bolder;
+    margin-left: 120px;
+}
+#color:hover{
+    background-color: grey;
+    color: black;
+}
+
+.down{
+    margin-left: 245px;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+.showw{
+    padding: 4% 5%;
+    border-radius: 10%;
+    background-color: rgb(41, 96, 248);
+    border: none;
+    font-weight: bold;
+    color: #fff;
+    
+}
+
+.showw:hover{
+    background-color:rgb(5, 211, 91);
+    color: black ;
+    font-weight: bold;
+}
+.resett{
+    padding: 4% 5%;
+    border-radius: 10%;
+    background-color: grey;
+    border: none;
+    font-weight: bold;
+    color: #fff;
+}
+
+.resett:hover{
+    background-color:rgb(129, 4, 4);
+    color: black;
+    font-weight: bold;
+}
+.blue:hover
+{
+    background-color: blue;
+}
+
+.grey{
+    background-color: grey;
+    color: black;
+    font-weight: bolder;
+}
+.grey:hover
+{
+    background-color: grey;
+}
+.green{
+    background-color: yellow;
+    color: black;
+    font-weight: bolder;
+}
+.green:hover
+{
+	background-color: green;
+}
+.yellow{
+    background-color: green;
+    color: black;
+    font-weight: bolder;
+}
+.yellow:hover
+{
+    background-color: yellow;
+}
+
+.lightblue{
+    background-color: lightblue;
+    color: black;
+    font-weight: bolder;
+}
+.lightblue:hover
+{
+    background-color: lightblue;
+}
+.black{
+    background-color: black;
+    color: black;
+    font-weight: bolder;
+}
+.black:hover
+{
+    background-color: black;
+}
